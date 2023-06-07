@@ -1,3 +1,5 @@
+[Link](https://stackoverflow.com/questions/24718706/backup-restore-a-dockerized-postgresql-database)
+
 # Steps to dump DB
 ```
 sudo docker exec -t db-my pg_dumpall -c -U user > dump_`date +%Y-%m-%d"_"%H_%M_%S`.sql
